@@ -1,16 +1,17 @@
 {
   "expo": {
-    "name": "TwitterClassifierApp",
-    "slug": "TwitterClassifierApp",
+    "name": "TweetShield",
+    "slug": "tweetshield",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "twitterclassifierapp",
+    "scheme": "tweetshield",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.sumitraj7766.tweetshield",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -37,6 +38,16 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "46c412a9-08d6-4c6f-98b1-9bbb16410809"
+      }
     }
   }
 }
